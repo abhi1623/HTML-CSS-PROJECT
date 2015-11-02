@@ -1,0 +1,120 @@
+header {
+    width: 100%;
+    background: #fbd433;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: solid 2px #e5c026;
+    z-index: 101;
+}
+header img {
+  width: 90px;
+  height: 65px;
+}
+#page-title {
+  background-color: #F5F5F5;
+  margin-top: 70px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#page-title h1 {
+    padding: 0;
+    margin:0;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #333;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+#hero {
+  background-image: url("../img/img2.jpg");
+  background-repeat: no-repeat;
+  height: 600px;
+  padding-left: 20px;
+}
+#hero h1 {
+  color: white;
+  margin-top: 40px;
+}
+#hero p {
+  color: white;
+  font-size: 15px;
+}
+#first {
+  margin-top: 10px;
+  background-color: #FFF;
+}
+#first section {
+  background-color: #FFF;
+  text-align: justify;
+  height: 250px;
+  margin-top: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#first section h2 {
+  color: #fbd433;
+}
+#second {
+  margin-top: 20px;
+  background-color: #FFF;
+}
+#second h2 {
+  color: #fbd433;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+#second h2 span {
+  display: block;
+  color: #454545;
+  padding: 0;
+}
+#second p {
+  font-size: 15px;
+  color:#555;
+}
+#third {
+  margin-top: 40px;
+}
+#third h2 {
+  color: #fbd433;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+#third h2 span {
+  display: block;
+  color: #454545;
+  padding: 0;
+}
+#third li {
+  font-size: 15px;
+  color:#555;
+}
+footer {
+  margin-top: 20px;
+  background-color: #fbd433;
+  padding-top: 10px;
+}
+nav ul {
+  padding-left: 250px;
+  padding-top: 17px;
+}
+nav li {
+  display: inline;
+  font-size: 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+#content a {
+  text-decoration: none;
+  color: orange;
+}
+a:hover {
+  color: black;
+}
