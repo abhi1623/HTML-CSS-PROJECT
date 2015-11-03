@@ -35,28 +35,62 @@ header img {
   background-repeat: no-repeat;
   height: 600px;
   margin-top: 20px;
-  padding-left: 20px;
+  color: white;
 }
 #hero h1 {
-  color: white;
-  margin-top: 40px;
+  margin-top: 30px;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 30px;
 }
 #hero p {
-  color: white;
-  font-size: 15px;
+  font-size: 17px;
+  padding: 0 20px;
 }
-#first {
+#content {
   margin-top: 10px;
-  background-color: #FFF;
+  text-align: justify;
 }
-#first section {
+.one ,.two, .three, .four{
+  background-color: #FFF;
   text-align: justify;
   height: 250px;
   margin-top: 10px;
   padding: 10px;
   box-sizing: border-box;
+  color: #fbd433;
 }
-#first section h2 {
+{.one ,.two, .three, .four} h2{
+  color: white;
+}
+#content .one {
+  background-image: url("../img/girl2.jpg");
+  background-repeat: no-repeat;
+}
+#content .two {
+  background-image: url("../img/girl5.jpg");
+  background-repeat: no-repeat;
+}
+#content .three {
+  background-image: url("../img/girl3.jpg");
+  background-repeat: no-repeat;
+}
+#content .four {
+  background-image: url("../img/girl4.jpg");
+  background-repeat: no-repeat;
+}
+
+#first {
+  margin-top: 10px;
+}
+#first .subsection {
+  height: 250px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #FFF;
+  box-sizing: border-box;
+}
+#first .subsection h2 {
   color: #fbd433;
 }
 #second {
@@ -110,17 +144,19 @@ nav li {
   display: inline;
   font-size: 20px;
 }
-
-header a {
+a{
   text-decoration: none;
-  color: white;
-  font-size: 20px;
-}
-
-#content a {
-  text-decoration: none;
-  color: orange;
 }
 a:hover {
   color: black;
+}
+header a {
+  color: white;
+  font-size: 20px;
+}
+#content a {
+  color: orange;
+}
+#primary a {
+  color: white;
 }
